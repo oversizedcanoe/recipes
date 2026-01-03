@@ -13,3 +13,8 @@ This is a collection of my favourite recipes. None of these are of my own creati
  Once I've followed a recipe and made a dish a couple times, I like to boil down the recipe into a few sentences. Next time I want to make the dish, I can skim this outline and remember the general idea, and roll with it. I have a terrible memory, so having this quick reminder helps ease my anxiety of forgetting something crucial.
 
  Enjoy.
+
+ ### Recipes
+
+ #### Pasta
+  - [Red Sauce](./recipes/red-sauce.md)
