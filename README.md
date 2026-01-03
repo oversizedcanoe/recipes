@@ -16,8 +16,14 @@ This is a collection of my favourite recipes. None of these are of my own creati
 
  ---
 
+### Mains
+ - [Smash Burgers and Burger Sauce](./recipes/smash-burgers-and-burger-sauce.md)
+
+
 ### Pasta
  - [Red Sauce](./recipes/red-sauce.md)
 
+
 ### Proteins
  - [Ribs](./recipes/ribs.md)
+

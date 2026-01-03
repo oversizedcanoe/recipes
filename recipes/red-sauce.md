@@ -36,3 +36,4 @@ This is a really flexible recipe. You could double or halve basically any ingred
 14. Taste near the end and add tweak flavour profile with whatever is missing: sugar, salt.
 15. Optionally, use a stick blender to smooth out the sauce. Keep it chunky, or blend it a bit, or blend it smooth, up to you.
 16. Serve with pasta of your choice, I like linguini. I cook the noodles 1-2 minutes less than the box recommends, then I strain (reserving some pasta water), and toss 1-2 portions at a time in a separate pan, adding a ladel or two of sauce and some pasta water to finish cooking the noodles and emulsify everything together.
+17. Optionally garnish with freshly grated parmesan or freshly chopped basil.
