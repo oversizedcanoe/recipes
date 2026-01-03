@@ -1,11 +1,13 @@
-### Red Sauce
+## Red Sauce
 A simple but delicious tomato sauce.
 
-#### Core Idea
+### Core Idea
 Sautee onion, garlic, tomato paste, herbs and spices. Add tomatoes and simmer for a while.
 
-#### Recipe
-##### Ingredients
+--- 
+
+### Detailed Recipe
+#### Ingredients
 This is a really flexible recipe. You could double or halve basically any ingredient and it will still taste great. I also recommend doubling this recipe and freezing half.
 
  - 1/4 cup olive oil
@@ -17,7 +19,7 @@ This is a really flexible recipe. You could double or halve basically any ingred
  - Pinch of white sugar
  - Optional: fresh basil leaves, parmesan cheese rind
 
-##### Steps
+#### Steps
 1. Dice the onion.
 2. Smash the garlic cloves. I keep them fairly large, as this cooks forever and biting into a big piece isn't too overpowering in the end dish
 3. Preheat a large pan and add olive oil. Keep the heat medium low. You want a decent amount of oil in the pan -- you're not deep frying anything, but the oil itself becomes part of the sauce itself as it emulsifies.

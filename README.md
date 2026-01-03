@@ -14,7 +14,10 @@ This is a collection of my favourite recipes. None of these are of my own creati
 
  Enjoy.
 
- ### Recipes
+ ---
 
- #### Pasta
-  - [Red Sauce](./recipes/red-sauce.md)
+### Pasta
+ - [Red Sauce](./recipes/red-sauce.md)
+
+### Proteins
+ - [Ribs](./recipes/ribs.md)

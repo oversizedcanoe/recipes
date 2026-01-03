@@ -1,12 +1,14 @@
-### RECIPE_NAME
+## RECIPE_NAME
 A recipe.
 
-#### Core Idea
+### Core Idea
 Cook.
 
-#### Recipe
-##### Ingredients
+---
+
+### Detailed Recipe
+#### Ingredients
  - Ingredients
 
-##### Steps
+#### Steps
 1. Cook
