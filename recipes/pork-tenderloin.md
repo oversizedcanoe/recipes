@@ -1,6 +1,8 @@
 ## Pork Tenderloin
 Juicy, flavorful pork tenderloin. This recipe is basically what's made in [this](https://www.youtube.com/watch?v=SUaGUC1a5fo) video.
 
+For leftovers, considering making cubanos or ramen.
+
 ### Core Idea
 Season with [everything seasoning](./everything-seasoning.md) and sear pork in a pan. Make a glaze with brown sugar, hot sauce, garlic, mustard, and soy sauce. Baste and transfer to oven at 375 for 25-45 minutes, checking and basting after 15. 
 

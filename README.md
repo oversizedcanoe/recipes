@@ -28,3 +28,6 @@ This is a collection of my favourite recipes. None of these are of my own creati
  - [Pork Tenderloin](./recipes/pork-tenderloin.md)
  - [Ribs](./recipes/ribs.md)
 
+
+### Miscellaneous
+ - [Everything Seasoning](./recipes/everything-seasoning.md)
