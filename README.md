@@ -25,5 +25,6 @@ This is a collection of my favourite recipes. None of these are of my own creati
 
 
 ### Proteins
+ - [Pork Tenderloin](./recipes/pork-tenderloin.md)
  - [Ribs](./recipes/ribs.md)
 

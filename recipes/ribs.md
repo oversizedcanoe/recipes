@@ -2,7 +2,7 @@
 Ribs. I think this is basically Matty Mathesons recipe for his McRib ribs.
 
 ### Core Idea
-Coat ribs in mustard and spices. 2.5 hours covered at 300, then 30 minutes at 350 uncovered, slathering BBQ sauce on every 10 minutes.
+Coat ribs in mustard and season with [everything seasoning](./everything-seasoning.md). 2.5 hours covered at 300, then 30 minutes at 350 uncovered, slathering BBQ sauce on every 10 minutes.
 
 ---
 

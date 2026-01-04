@@ -1,6 +1,8 @@
 ## Smash Burgers and Burger Sauce
 The best way to make burgers.
 
+The burger sauce is from Joshua Weissman's video on In N Out sauce.
+
 ### Core Idea
 Smash balls of beef on really hot cast iron.
 
