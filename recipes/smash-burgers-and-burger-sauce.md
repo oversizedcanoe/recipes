@@ -3,10 +3,10 @@ The best way to make burgers.
 
 The burger sauce is from Joshua Weissman's video on In N Out sauce.
 
-### Core Idea
+### The Gist
 Smash balls of beef on really hot cast iron.
 
-The sauce doesn't really have a "core idea". I recommend making it to a T, though. It's perfect. It's enough for 6+ burgers easily.
+The sauce doesn't really have a "The Gist". I recommend making it to a T, though. It's perfect. It's enough for 6+ burgers easily.
 
 ---
 

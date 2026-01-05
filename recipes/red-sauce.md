@@ -1,7 +1,7 @@
 ## Red Sauce
 A simple but delicious tomato sauce.
 
-### Core Idea
+### The Gist
 Sautee onion, garlic, tomato paste, herbs and spices. Add tomatoes and simmer for a while.
 
 --- 

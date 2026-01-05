@@ -1,7 +1,7 @@
 ## RECIPE_NAME
 A recipe.
 
-### Core Idea
+### The Gist
 Cook.
 
 ---
