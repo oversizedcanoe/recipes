@@ -1,7 +1,7 @@
 ## All Purpose Seasoning
 I use this seasoning on basically all meat and any other savory dishes like sauteed vegetables.
 
-Note how there is no salt in this. I like salting things separately. If something needs more flavour but is salty enough, I can add this seasoning without throwing off the saltyness. Also, some dishes have their own sources of salt, such as soy sauce, and so this seasoning can still be used without throwing off the balance.
+Note how there is no salt in this. I like salting things separately. If something needs more flavour but is salty enough, I can add this seasoning without throwing off the saltyness. Also, some dishes have other sources of salt, such as soy sauce or salty meat (see [bacon wrapped smokies](./bacon-wrapped-smokies.md)), and so this seasoning can still be used without throwing off the balance.
 
 ### The Gist
 Equal parts smoked paprika, garlic powder, onion powder. Half a part black pepper.

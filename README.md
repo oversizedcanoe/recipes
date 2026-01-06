@@ -25,16 +25,15 @@ Please enjoy.
 
 ### Mains
  - [Smash Burgers and Burger Sauce](./recipes/smash-burgers-and-burger-sauce.md)
-
+ - [Coq Au Vin](./recipes/coq-au-vin.md)
 
 ### Pasta
  - [Red Sauce](./recipes/red-sauce.md)
 
-
 ### Proteins
  - [Pork Tenderloin](./recipes/pork-tenderloin.md)
  - [Ribs](./recipes/ribs.md)
-
+ - [Bacon Wrapped Smokies](./recipes/bacon-wrapped-smokies.md)
 
 ### Miscellaneous
  - [All Purpose Seasoning](./recipes/all-purpose-seasoning.md)
