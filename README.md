@@ -31,9 +31,10 @@ Please enjoy.
  - [Red Sauce](./recipes/red-sauce.md)
 
 ### Proteins
+ - [Bacon Wrapped Smokies](./recipes/bacon-wrapped-smokies.md)
+ - [Fried Chicken](./recipes/fried-chicken.md)
  - [Pork Tenderloin](./recipes/pork-tenderloin.md)
  - [Ribs](./recipes/ribs.md)
- - [Bacon Wrapped Smokies](./recipes/bacon-wrapped-smokies.md)
 
 ### Miscellaneous
  - [All Purpose Seasoning](./recipes/all-purpose-seasoning.md)
