@@ -10,7 +10,6 @@
  - white wine skillet chicken and potatoes 
    - https://gatherednutrition.com/white-wine-skillet-chicken-and-potatoes/
  - pork shoulder/boston butt
- - Pasta Primavera 
  - Fish tacos 
  - Chicken piccatta
  - Beef Bulgogi

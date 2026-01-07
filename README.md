@@ -24,17 +24,21 @@ Please enjoy.
  ---
 
 ### Mains
- - [Smash Burgers and Burger Sauce](./recipes/smash-burgers-and-burger-sauce.md)
+ - [Smash Burgers](./recipes/smash-burgers.md)
  - [Coq Au Vin](./recipes/coq-au-vin.md)
 
 ### Pasta
+ - [Pasta Primavera](./recipes/pasta-primavera.md)
  - [Red Sauce](./recipes/red-sauce.md)
 
 ### Proteins
  - [Bacon Wrapped Smokies](./recipes/bacon-wrapped-smokies.md)
+ - [Beer Battered Fish](./recipes/beer-battered-fish.md)
  - [Fried Chicken](./recipes/fried-chicken.md)
  - [Pork Tenderloin](./recipes/pork-tenderloin.md)
  - [Ribs](./recipes/ribs.md)
 
 ### Miscellaneous
  - [All Purpose Seasoning](./recipes/all-purpose-seasoning.md)
+ - [Burger Sauce](./recipes/burger-sauce.md)
+ - [Tartar Sauce](./recipes/tartar-sauce.md)
