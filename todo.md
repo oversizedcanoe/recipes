@@ -6,17 +6,13 @@
 
 
  - chicken gnocchi soup
- - roasted tomato soup
  - white wine skillet chicken and potatoes 
    - https://gatherednutrition.com/white-wine-skillet-chicken-and-potatoes/
  - pork shoulder/boston butt
  - Fish tacos 
  - Chicken piccatta
- - Beef Bulgogi
  - Whatever this is: Rose, Linguine, Kalamalat olives, Roasted red pep, Italian sausage, Basil\
- - Tartar sauce
  - Hummus
- - Beer battered fish
  - Braised chicken thighs in heavily spiced chicken stock for pulled chicken tacos\
  - Pancakes (Adam ragusea 101)
  - Boneless Blade Roast, or any Roast with a lot of Marbling

@@ -24,8 +24,9 @@ Please enjoy.
  ---
 
 ### Mains
- - [Smash Burgers](./recipes/smash-burgers.md)
+ - [Beef Bulgogi](./recipes/beef-bulgogi.md)
  - [Coq Au Vin](./recipes/coq-au-vin.md)
+ - [Smash Burgers](./recipes/smash-burgers.md)
 
 ### Pasta
  - [Pasta Primavera](./recipes/pasta-primavera.md)
@@ -37,6 +38,9 @@ Please enjoy.
  - [Fried Chicken](./recipes/fried-chicken.md)
  - [Pork Tenderloin](./recipes/pork-tenderloin.md)
  - [Ribs](./recipes/ribs.md)
+
+### Soup
+ - [Roasted Tomato Soup](./recipes/roasted-tomato-soup.md)
 
 ### Miscellaneous
  - [All Purpose Seasoning](./recipes/all-purpose-seasoning.md)
