@@ -1,5 +1,5 @@
 ## Roasted Tomato Soup
-A recipe.
+Hearty and warming tomato soup.
 
 ### The Gist
 Bake a ton of tomatoes and veggies in a 450 oven until they're well roasted and caramelized (at least 30 minutes). Simmer in pot, blend with stock.
