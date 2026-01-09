@@ -27,6 +27,7 @@ Please enjoy.
  - [Beef Bulgogi](./recipes/beef-bulgogi.md)
  - [Coq Au Vin](./recipes/coq-au-vin.md)
  - [Smash Burgers](./recipes/smash-burgers.md)
+ - [White Win Chicken and Potatoes](./recipes/white-wine-chicken-and-potatoes.md)
 
 ### Pasta
  - [Pasta Primavera](./recipes/pasta-primavera.md)
@@ -36,13 +37,16 @@ Please enjoy.
  - [Bacon Wrapped Smokies](./recipes/bacon-wrapped-smokies.md)
  - [Beer Battered Fish](./recipes/beer-battered-fish.md)
  - [Fried Chicken](./recipes/fried-chicken.md)
+ - [Pork Shoulder](./recipes/pork-shoulder.md)
  - [Pork Tenderloin](./recipes/pork-tenderloin.md)
  - [Ribs](./recipes/ribs.md)
 
 ### Soup
+ - [Chicken Gnocchi Soup](./recipes/chicken-gnocchi-soup.md)
  - [Roasted Tomato Soup](./recipes/roasted-tomato-soup.md)
 
 ### Miscellaneous
  - [All Purpose Seasoning](./recipes/all-purpose-seasoning.md)
  - [Burger Sauce](./recipes/burger-sauce.md)
+ - [Hummus](./recipes/hummus.md)
  - [Tartar Sauce](./recipes/tartar-sauce.md)
