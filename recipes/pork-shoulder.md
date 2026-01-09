@@ -1,8 +1,8 @@
 ## Pork Shoulder
-Also called boston butt. Good for 4-5 pounds. Recipe adapted from [here](https://www.recipetineats.com/juicy-cuban-mojo-pork-roast-chef-movie-recipe/).
+This makes a "cubano" style pork shoulder, which is also called boston butt. Good for 4-5 pounds. Recipe adapted from [here](https://www.recipetineats.com/juicy-cuban-mojo-pork-roast-chef-movie-recipe/).
 
 ### The Gist
-Cook.
+Marinate pork in herbs, garlic, and citrus for 24 hours. Cook at 425 for 30 minutes then 375 for 90-120 minutes.
 
 ---
 
