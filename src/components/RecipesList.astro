@@ -1,0 +1,66 @@
+---
+
+---
+
+<div class="container">
+	<main>
+        <h3>Recipe List</h3>
+        <ul id="recipe-list"></ul>
+	</main>
+</div>
+
+<style>
+    main {
+        padding-bottom: 2rem;
+    }
+</style>
+
+<script>
+  const files: string[] = await fetch('/recipes/index.json').then(r => r.json());
+  const ul = document.getElementById('recipe-list');
+
+  files.forEach(file => {
+    const nameWithoutExt = file.replace(/\.json$/, '');
+    const displayName = nameWithoutExt.charAt(0).toUpperCase() + nameWithoutExt.slice(1);
+
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+
+    a.href = `./recipe?q=${nameWithoutExt}`;
+    a.textContent = displayName;
+
+    li.appendChild(a);
+    ul!.appendChild(li);
+  });
+
+</script>
+
+
+<!-- 
+### Mains
+ - [Beef Bulgogi](./recipes/beef-bulgogi.md)
+ - [Coq Au Vin](./recipes/coq-au-vin.md)
+ - [Smash Burgers](./recipes/smash-burgers.md)
+ - [White Win Chicken and Potatoes](./recipes/white-wine-chicken-and-potatoes.md)
+
+### Pasta
+ - [Pasta Primavera](./recipes/pasta-primavera.md)
+ - [Red Sauce](./recipes/red-sauce.md)
+
+### Proteins
+ - [Bacon Wrapped Smokies](./recipes/bacon-wrapped-smokies.md)
+ - [Beer Battered Fish](./recipes/beer-battered-fish.md)
+ - [Fried Chicken](./recipes/fried-chicken.md)
+ - [Pork Shoulder](./recipes/pork-shoulder.md)
+ - [Pork Tenderloin](./recipes/pork-tenderloin.md)
+ - [Ribs](./recipes/ribs.md)
+
+### Soup
+ - [Chicken Gnocchi Soup](./recipes/chicken-gnocchi-soup.md)
+ - [Roasted Tomato Soup](./recipes/roasted-tomato-soup.md)
+
+### Miscellaneous
+ - [All Purpose Seasoning](./recipes/all-purpose-seasoning.md)
+ - [Burger Sauce](./recipes/burger-sauce.md)
+ - [Hummus](./recipes/hummus.md)
+ - [Tartar Sauce](./recipes/tartar-sauce.md) -->
