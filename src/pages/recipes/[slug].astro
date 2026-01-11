@@ -1,16 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 
-type Recipe = {
-  name: string;
-  description: string;
-  gist: string;
-  ingredients: string;
-  steps: string;
-  notes: string;
-};
-
-
 const recipes = import.meta.glob('../../recipes/*.json', { eager: true }) as Record<string, {default: Recipe}>;
 const { slug } = Astro.params;
 const module = recipes[`../../recipes/${slug}.json`];

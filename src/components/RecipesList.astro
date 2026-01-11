@@ -1,39 +1,84 @@
 ---
+import { RecipeType, type Recipe } from "../shared/models";
+
 type RecipeFile = {
     fileUrl: string;
-    recipeName: string;
+    recipe: Recipe;
 };
 
 const files = import.meta.glob("../recipes/*.json", { eager: true });
 const entries = Object.entries(files);
-const recipes: RecipeFile[] = entries.map((entry) => {
-    const fullFileName = entry[0];
+
+const recipes: RecipeFile[] = [];
+
+for (const [path, module] of entries as [string, Recipe][]) {
+    const fullFileName = path;
 
     // strip everything before last /
     const fileName = fullFileName.substring(fullFileName.lastIndexOf("/") + 1);
-    console.log(fileName);
 
     // remove .json
     const fileUrl = fileName.substring(0, fileName.length - 5);
 
-    // remove - and capitalize first letters
-    const recipeName = fileUrl
-        .split("-")
-        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(" ");
+    recipes.push({ fileUrl, "recipe": module});
+}
 
-    return { fileUrl, recipeName };
-});
 ---
 
 <div class="container">
     <main>
         <h3>Recipe List</h3>
+
+        <h6>Mains</h6>
         <ul>
             {
-                recipes.map((recipe) => (
+                recipes.filter(recipe=>recipe.recipe.type == RecipeType.Main).map((recipe) => (
                     <li>
-                        <a href={`./recipes/${recipe.fileUrl}`}>{recipe.recipeName}</a>
+                        <a href={`./recipes/${recipe.fileUrl}`}>{recipe.recipe.name}</a>
+                    </li>
+                ))
+            }
+        </ul>
+
+        <h6>Protein</h6>
+        <ul>
+            {
+                recipes.filter(recipe=>recipe.recipe.type == RecipeType.Protein).map((recipe) => (
+                    <li>
+                        <a href={`./recipes/${recipe.fileUrl}`}>{recipe.recipe.name}</a>
+                    </li>
+                ))
+            }
+        </ul>
+
+        <h6>Pasta</h6>
+        <ul>
+            {
+                recipes.filter(recipe=>recipe.recipe.type == RecipeType.Pasta).map((recipe) => (
+                    <li>
+                        <a href={`./recipes/${recipe.fileUrl}`}>{recipe.recipe.name}</a>
+                    </li>
+                ))
+            }
+        </ul>
+
+        <h6>Soup</h6>
+        <ul>
+            {
+                recipes.filter(recipe=>recipe.recipe.type == RecipeType.Soup).map((recipe) => (
+                    <li>
+                        <a href={`./recipes/${recipe.fileUrl}`}>{recipe.recipe.name}</a>
+                    </li>
+                ))
+            }
+        </ul>
+
+        <h6>Misc</h6>
+        <ul>
+            {
+                recipes.filter(recipe=>recipe.recipe.type == RecipeType.Misc).map((recipe) => (
+                    <li>
+                        <a href={`./recipes/${recipe.fileUrl}`}>{recipe.recipe.name}</a>
                     </li>
                 ))
             }
