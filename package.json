@@ -6,10 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "predev": "node build-recipe-index.js",
-    "prestart": "node build-recipe-index.js",
-    "prebuild": "node build-recipe-index.js"
+    "astro": "astro"
   },
   "dependencies": {
     "astro": "^5.16.8"

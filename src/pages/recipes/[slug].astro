@@ -1,0 +1,66 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+type Recipe = {
+  name: string;
+  description: string;
+  gist: string;
+  ingredients: string;
+  steps: string;
+  notes: string;
+};
+
+
+const recipes = import.meta.glob('../../recipes/*.json', { eager: true }) as Record<string, {default: Recipe}>;
+const { slug } = Astro.params;
+const module = recipes[`../../recipes/${slug}.json`];
+
+if (module == null) {
+  throw new Error('Recipe not found');
+}
+
+export async function getStaticPaths() {
+	const recipes = import.meta.glob('../../recipes/*.json', { eager: true }) as Record<string, {default: Recipe}>;
+	return Object.keys(recipes).map(path => {
+    const slug = path.split('/').pop()?.replace('.json', '');
+    return {
+      params: { slug }
+    };
+  });
+}
+
+
+const recipe = module.default;
+
+const showGist = recipe.gist != "";
+const showNotes = recipe.notes != "";
+---
+
+<Layout>
+  <div class="container">
+    <h1>{recipe.name}</h1>
+    <p>{recipe.description}</p>
+
+    {
+      showGist &&
+      <h3>The "Gist"</h3>
+      <p>{recipe.gist}</p>
+    }
+
+    <h3>Ingredients</h3>
+    <p style="white-space: pre-line;">{recipe.ingredients}</p>
+
+    <h3>Steps</h3>
+    <p style="white-space: pre-line;">{recipe.steps}</p>
+
+    
+    {
+      showNotes &&
+      <h3>Notes</h3>
+      <p>{recipe.notes}</p>
+    }
+  </div>
+</Layout>
+
+<style>
+</style>
