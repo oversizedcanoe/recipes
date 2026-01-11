@@ -1,19 +1,44 @@
 ---
-const recipes = import.meta.glob('../recipes/*.json', { eager: true });
-const entries = Object.entries(recipes);
-console.log(entries);
+type RecipeFile = {
+    fileUrl: string;
+    recipeName: string;
+};
 
+const files = import.meta.glob("../recipes/*.json", { eager: true });
+const entries = Object.entries(files);
+const recipes: RecipeFile[] = entries.map((entry) => {
+    const fullFileName = entry[0];
+
+    // strip everything before last /
+    const fileName = fullFileName.substring(fullFileName.lastIndexOf("/") + 1);
+    console.log(fileName);
+
+    // remove .json
+    const fileUrl = fileName.substring(0, fileName.length - 5);
+
+    // remove - and capitalize first letters
+    const recipeName = fileUrl
+        .split("-")
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
+
+    return { fileUrl, recipeName };
+});
 ---
 
 <div class="container">
-	<main>
+    <main>
         <h3>Recipe List</h3>
         <ul>
-			{entries.map((entry, index) => (
-	            <li><a href="./recipes/red-sauce">Red Sauce</a></li>
-			))}
+            {
+                recipes.map((recipe) => (
+                    <li>
+                        <a href={`./recipes/${recipe.fileUrl}`}>{recipe.recipeName}</a>
+                    </li>
+                ))
+            }
         </ul>
-	</main>
+    </main>
 </div>
 
 <style>
@@ -21,7 +46,6 @@ console.log(entries);
         padding-bottom: 2rem;
     }
 </style>
-
 
 <!-- 
 ### Mains
