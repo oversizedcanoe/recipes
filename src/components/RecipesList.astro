@@ -34,7 +34,7 @@ for (const [path, module] of entries as [string, Recipe][]) {
             {
                 recipes.filter(recipe=>recipe.recipe.type == RecipeType.Main).map((recipe) => (
                     <li>
-                        <a href={`./recipes/${recipe.fileUrl}`}>{recipe.recipe.name}</a>
+                        <a href={`/recipes/recipes/${recipe.fileUrl}`}>{recipe.recipe.name}</a>
                     </li>
                 ))
             }
