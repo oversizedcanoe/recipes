@@ -5,16 +5,26 @@
 <header class="container">
 	<nav>
 		<ul>
-			<li><strong>🍳Recipes</strong></li>
+			<li><a href="/" class="no-link"><strong>🍳Get Cooked</strong></a></li>
 		</ul>
 		<ul>
 			<li><a href="/">Home</a></li>
 			<li><a href="/recipes">Recipes</a></li>
+			<li><a href="/eventual">Eventual</a></li>
 		</ul>
 	</nav>
 </header>
 
 <style>
-	*{
+	nav {
+		justify-content: start;
+	}
+
+	.no-link {
+		color: var(--pico-h3-color);
+	}
+	.no-link:hover {
+		color: var(--pico-h3-color);
+		text-decoration: none;
 	}
 </style>
