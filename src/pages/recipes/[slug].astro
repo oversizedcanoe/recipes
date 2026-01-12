@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import type { Recipe } from '../../shared/models';
 
 const recipes = import.meta.glob('../../recipes/*.json', { eager: true }) as Record<string, {default: Recipe}>;
 const { slug } = Astro.params;
