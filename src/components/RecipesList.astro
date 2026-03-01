@@ -23,6 +23,9 @@ for (const [path, module] of entries as [string, Recipe][]) {
     recipes.push({ fileUrl, "recipe": module});
 }
 
+function getUrl(recipe: RecipeFile): string {
+    return `/recipes/recipe/${recipe.fileUrl}`;
+}
 ---
 
 <div class="container">
@@ -34,7 +37,7 @@ for (const [path, module] of entries as [string, Recipe][]) {
             {
                 recipes.filter(recipe=>recipe.recipe.type == RecipeType.Main).map((recipe) => (
                     <li>
-                        <a href={`/recipes/${recipe.fileUrl}`}>{recipe.recipe.name}</a>
+                        <a href={getUrl(recipe)}>{recipe.recipe.name}</a>
                     </li>
                 ))
             }
@@ -45,7 +48,7 @@ for (const [path, module] of entries as [string, Recipe][]) {
             {
                 recipes.filter(recipe=>recipe.recipe.type == RecipeType.Protein).map((recipe) => (
                     <li>
-                        <a href={`./recipes/${recipe.fileUrl}`}>{recipe.recipe.name}</a>
+                        <a href={getUrl(recipe)}>{recipe.recipe.name}</a>
                     </li>
                 ))
             }
@@ -56,7 +59,7 @@ for (const [path, module] of entries as [string, Recipe][]) {
             {
                 recipes.filter(recipe=>recipe.recipe.type == RecipeType.Pasta).map((recipe) => (
                     <li>
-                        <a href={`./recipes/${recipe.fileUrl}`}>{recipe.recipe.name}</a>
+                        <a href={getUrl(recipe)}>{recipe.recipe.name}</a>
                     </li>
                 ))
             }
@@ -67,7 +70,7 @@ for (const [path, module] of entries as [string, Recipe][]) {
             {
                 recipes.filter(recipe=>recipe.recipe.type == RecipeType.Soup).map((recipe) => (
                     <li>
-                        <a href={`./recipes/${recipe.fileUrl}`}>{recipe.recipe.name}</a>
+                        <a href={getUrl(recipe)}>{recipe.recipe.name}</a>
                     </li>
                 ))
             }
@@ -78,7 +81,7 @@ for (const [path, module] of entries as [string, Recipe][]) {
             {
                 recipes.filter(recipe=>recipe.recipe.type == RecipeType.Misc).map((recipe) => (
                     <li>
-                        <a href={`./recipes/${recipe.fileUrl}`}>{recipe.recipe.name}</a>
+                        <a href={getUrl(recipe)}>{recipe.recipe.name}</a>
                     </li>
                 ))
             }

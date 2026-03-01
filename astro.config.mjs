@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://oversizedcanoe.github.io'
+    site: 'https://oversizedcanoe.github.io',
+    base: '/recipes'
 });
 
