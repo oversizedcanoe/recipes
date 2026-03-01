@@ -1,16 +1,10 @@
 Clean up repo
-Improve CSS
-Double Check Recipes for errors
+Double Check Recipes for errors/formatting
 Figure out better way to edit recipes rather than JSON
+Intra-recipe links aren't set up/working
+
 Continue Adding Remaining Recipes
- - Fish tacos 
- - Chicken piccatta
- - Whatever this is: Rose, Linguine, Kalamalat olives, Roasted red pep, Italian sausage, Basil
- - Braised chicken thighs in heavily spiced chicken stock for pulled chicken tacos\
- - Pancakes (Adam ragusea 101)
  - Boneless Blade Roast, or any Roast with a lot of Marbling
  - Whole chicken meals: Chicken soup, hunters chicken/cacciatore (all Adam Ragusea)
- - Ragu
- - "Ramen"- great for leftover Pork Tenderloin 
  - Pesto steak baguette
  - Family Spaghetti sauce
